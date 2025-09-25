@@ -1,0 +1,10 @@
+services:
+  sp:
+    build: .
+    container_name: sp
+    ports:
+      - "5002:5002"
+    env_file:
+      - .env
+    volumes:
+      - .:/app

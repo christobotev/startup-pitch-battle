@@ -1,0 +1,35 @@
+pitch_task:
+  description: >
+    Present realization {variation} of the startup vision and mission in a clear and compelling way
+  expected_output: >
+    Write a 2-3 paragraph pitch for the startup "{name}" in the "{industry}" industry.
+    The mission is: "{mission}". The product is "{product}". 
+    The target market is "{target_market}". 
+    Funding stage: "{initial_funding}".
+
+financial_task:
+  description: >
+    Present detailed financials for realization {variation}, market analysis, and ROI projections
+  expected_output: >
+    Market size estimate, revenue streams, 3-year financial projection,
+    and a justification of investment return that's realistic.
+
+engineering_task:
+  description: >
+    Explain the product's technical feasibility and scalability for realization {variation},
+    you can suggest how this technology if build in-house could be sold separately to other coffee shops/franchise.
+    Don't go too deep
+  expected_output: >
+    A breakdown of the core technology, potential bottlenecks,
+    and a roadmap to scale and maintain feasibility.
+
+evaluation_task:
+  description: >
+    Compare all startup pitches and declare the winner
+  expected_output: >
+    Present the evaluation in a clean, structured Markdown format:
+    - For each criterion (Innovation, Financials, Feasibility), create a section.
+    - In each section, compare Variation 1 and Variation 2 with a short bullet each.
+    - Show the numeric score (1-5) right next to each variation.
+    - Add a one-sentence mini-verdict per criterion.
+    - End with a **Final Verdict** section naming the overall winner and why.

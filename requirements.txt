@@ -1,0 +1,4 @@
+crewai>=0.5.0
+gradio
+psycopg2-binary
+watchdog
