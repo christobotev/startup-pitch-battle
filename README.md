@@ -54,7 +54,7 @@ startup-pitch-battle/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/<your-username>/startup-pitch-battle.git
+git clone https://github.com/christobotev/startup-pitch-battle.git
 cd startup-pitch-battle
 ```
 
